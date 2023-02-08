@@ -1,0 +1,55 @@
+body {
+  background-color: #eee;
+}
+
+.gradient-custom-2 {
+  /* fallback for old browsers */
+  background: #fccb90;
+
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: -webkit-linear-gradient(
+    to right,
+    #ff988c,
+    #cb2424,
+    #890f01,
+    #b44593
+  );
+
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: linear-gradient(to right, #ee7724, #d8363a, #dd3675, #b44593);
+
+  background-image: linear-gradient(
+    to right top,
+    #890f01,
+    #951308,
+    #a1170e,
+    #ad1b15,
+    #ba1f1b,
+    #ba1f1b,
+    #ba1f1b,
+    #ba1f1b,
+    #ad1b15,
+    #a1170e,
+    #951308,
+    #890f01
+  );
+}
+
+/* @media (min-width: 768px) {
+    .gradient-form {
+        height: 100vh !important;
+    }
+}
+
+@media (min-width: 769px) {
+    .gradient-custom-2 {
+        border-top-right-radius: .3rem;
+        border-bottom-right-radius: .3rem;
+    }
+} */
+
+.navSec {
+  --cassiopeia-color-primary: #ffffff;
+  --cassiopeia-color-link: #30638d;
+  --cassiopeia-color-hover: #954b56;
+}
